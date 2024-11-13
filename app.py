@@ -2,7 +2,7 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-@app.route('')
+@app.route('/hghhhh')
 def home():
     return jsonify({"message": "HELLO LEVEL 400 FET,QUALITY ASSURANCE!"})
 
